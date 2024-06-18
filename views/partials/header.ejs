@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title> <%- page_title  %> - <%- (locals.appname) ? appname  : '' %> </title>
+
+<meta name="author" content="<%-   (locals.appname) ? appname  : ''  %>">
+<meta name="description" content="<%-  metadesc  %>">
+<!-- Primary Meta Tags -->
+<meta name="title" content="<%- page_title  %> - <%- (locals.appname) ? appname  : '' %>" />
+<meta name="description" content="<%-  metadesc  %>" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://hiematech.com/" />
+<meta property="og:title" content="<%- page_title  %> - <%- (locals.appname) ? appname  : '' %>" />
+<meta property="og:description" content="<%-  metadesc  %>" />
+<meta property="og:image" content="/img/favi-1.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="/img/favi-1.png" />
+<meta property="twitter:title" content="<%- page_title  %> - <%- (locals.appname) ? appname  : '' %> " />
+<meta property="twitter:description" content="<%-  metadesc  %>" />
+<meta name="twitter:image" content="/img/logos/logomain.png"/>
+
+
+<!-- Meta Tags Generated with https://metatags.io -->
+
+<meta name="keywords" content="Smarthome, electrical, home appliance, solar, renewable energy, security, cctv, hiematech, hiematech systems">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link type="text/css" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="/css/plugins.css" rel="stylesheet">
+<link href="/style.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="/img/favi-1.png">
+<link rel="apple-touch-icon" href="/img/favi-1.png">
+
+<body class="light" data-barba="wrapper">
+
+<div class="page-loader columns">
+
+<div class="page-loader-percentage"></div>
+
+</div>
+
+
+<div class="nayla-page-transition columns up capt-bottom-left default">
+
+<div class="page-transition-caption">
+LOADING PLEASE WAIT..
+</div>
+
+</div>
+
+
+<div id="mouseCursor" class="dot"></div>
+
+
+<div id="page">
+<div class="menu-overlay"></div>
+
+<div id="header" class="site-header sticky light sticky-dark">
+
+<div class="header-wrapper wrapper">
+<div class="c-col-4 sm-6">
+
+<div class="site-branding">
+
+<div class="site-logo">
+<img alt="Site Logo (Dark)" class="dark-logo" src="/img/logos/logow.png">
+<img alt="Site Logo (Light)" class="light-logo" src="/img/logos/logomain.png">
+</div>
+
+
+<div class="sticky-logo">
+<img alt="Sticky Logo (Dark)" class="sticky-dark-logo" src="/img/logos/logopc.png">
+<img alt="Sticky Logo (Light)" class="sticky-light-logo" src="/img/logos/logomain-icon.png" style="width: 100%;">
+</div>
+
+</div>
+
+</div>
+<div class="c-col-4 hide-mobile">
+
+<div class="text-wrapper hide-sticky align-center">
+<p>Creativity meets functionality.</p>
+</div>
+
+</div>
+<div class="c-col-4 sm-6 align-right">
+<div class="nayla-layout-switcher ls_switcher">
+<span class="active-follower"></span>
+<span data-value="dark" class="switch-light">LIGHT</span>
+<span data-value="light" class="switch-dark">DARK</span>
+</div>
+
+<div class="menu-toggle">
+<div class="toggle-lines">
+<div class="toggle-line"></div>
+<div class="toggle-line"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<%- include("nav.ejs")  %>
+</div>
