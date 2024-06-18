@@ -36,14 +36,14 @@ app.get("/smarthome", (req, res) => {
     })
 })
 
-app.get("/about-us", (req, res) => {
+// app.get("/about-us", (req, res) => {
 
-    res.render("about.ejs", {
-        appname: company_name, 
-        page_title: "About us",
-        metadesc: ''
-    });
-});
+//     res.render("about.ejs", {
+//         appname: company_name, 
+//         page_title: "About us",
+//         metadesc: ''
+//     });
+// });
 
 app.get("/security", (req, res) =>{
     res.render("security.ejs",  {
